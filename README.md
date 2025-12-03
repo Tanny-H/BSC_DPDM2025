@@ -73,3 +73,25 @@ Data Mining คือการค้นพบความรู้ (Knowledge Di
  - Bioinformatics และการแพทย์
  - Social network analysis
  - Software engineering analytics
+
+# บทที่ 2 Getting to Know Your Data
+## Data Types & Data Sets
+- Record Data: ตาราง, เมทริกซ์, เทรนแซกชัน เช่น ข้อมูลขายของ
+- Graph/Network Data: เครือข่ายโซเชียล, ถนน, molecular network
+- Ordered Data: ข้อมูลเวลา (time-series), ลำดับเหตุการณ์
+- Spatial / Image / Multimedia: แผนที่, รูปภาพ, วิดีโอ
+
+## การทำ Visualization
+- Pixel-based visualization
+- Geometric projection เช่น parallel coordinates
+- TreeMap สำหรับข้อมูลลำดับชั้น
+- Tag cloud สำหรับแสดงความถี่คำ
+- Social network visualization
+
+## Similarity & Distance
+- Minkowski distance: L1 (Manhattan), L2 (Euclidean), L∞ (max diff)
+- Binary similarity: เช่น Jaccard สำหรับข้อมูล yes/no
+- Categorical: simple matching
+- Ordinal: แปลงลำดับเป็นค่าระหว่าง 0–1 ก่อนวัด
+- Mixed attributes: รวมด้วยสูตรถ่วงน้ำหนัก
+- Cosine similarity: ใช้กับเวกเตอร์ เช่น document-term frequency
